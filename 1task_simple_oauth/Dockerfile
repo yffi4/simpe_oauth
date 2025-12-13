@@ -38,4 +38,4 @@ USER appuser
 
 
 # Run the application
-CMD ["uvicorn", "main:app"]
+CMD ["python", "main.py"]
