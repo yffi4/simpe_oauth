@@ -10,7 +10,7 @@ app = FastAPI()
 app.include_router(auth_router)
 
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 8000))  # Nomad -> PORT
+    port = int(os.getenv("PORT", 8140))  # Nomad -> PORT
 
     uvicorn.run(
         "main:app",
